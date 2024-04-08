@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* { /* Reset */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    margin: 0;
+    padding: 0;
+    font-family: oswald, Arial, sans-serif; 
+}
+
+body {
+    font-family: oswald, Arial, sans-serif;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white
+}
+
+#destinations {
+    margin-right: 50x;
+    display: flex;
+    row-gap: 10px;
+    text-align: center;
+    column-gap: 20px;
+}
+
+#actions p { 
+    margin-right: 20px;
+    display: flex;
+    row-gap: 5px;
+}
+
+#actions {
+    display: flex;
+    align-items: center;
+}
+
+#actions button {
+    margin-left: 20px;
+}
+
+/* Hero Section */
+#hero {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#hero h1, #hero h2 {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#hero input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#trending {
+    margin-right: 50x;
+    display: flex;
+    row-gap: 10px;
+    text-align: center;
+    column-gap: 20px;
+}
+
+
+/* Sub Navigation */
+#subnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: red;
+}
+
+/* Main Content */
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.img-placeholder {
+    height: 200px;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
